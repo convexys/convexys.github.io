@@ -31,82 +31,121 @@
     </div>
 
     <div class="page-heading">
-        <div class="page-heading-content">
-            <div class="container">
-                <h1>Convexys Help</h1>
-                <p>
-                    Learn how to use Convexys.
-                </p>
-            </div>
+    <div class="page-heading-content">
+        <div class="container">
+            <h1>Item Management</h1>
+            <p>
+                How to add and manage your items and their revisions.
+            </p>
         </div>
     </div>
+</div>
 
     <div class="container body-content">
         <div class="row">
             <div class="col-md-9">
-                <h1 class="page-header">Introduction</h1>
+                <h1 class="page-header">Create an item</h1>
                 <div class="alert alert-info">
     <strong>Heads Up!</strong>
     This page is a work in progress.
 </div>
 
                 <p class="lead">
-                    Convexys is a solution to manage Parts, their Bills of Materials, as well as their documents.
-                    Here is an overview of the features of the application.
+                    This section details how to create a new item.
                 </p>
 
-                <h1 class="page-header">
-                    Overview
-                </h1>
-                <h3>
-                    Item Management
-                </h3>
                 <p>
-                    Item management is about creating and managing the list of items and their revisions.
-                    It enables the centralisation of all your items data. It also allows the management
-                    of the lifecycle of every revision and it's effectivity dates using a very simple workflow.
+                    Follow these steps to create a new item:
                 </p>
+                <ol class="content">
+                    <li>
+                        Go to the items page from the main menu or using this url:
+                        www.convexys.com/productinformation/items.
 
-                <h3>
-                    Bill of Materials Management
-                </h3>
-                <p>
-                    Bill of Materials
-                </p>
+                        <div class="img-div">
+                            <img src="/imgs/im/item-menu.png" alt="Items link" />
+                            <div class="small text-muted">Items link</div>
+                        </div>
+                    </li>
+                    <li>
+                        Hover on the data table and the (+) sign will appear at the top right.
 
-                <h3>
-                    Documents & Notes
-                </h3>
-                <p>
-                    Documents and notes
-                </p>
+                        <div class="img-div">
+                            <img src="/imgs/im/item-create-button.png" alt="The create item button" />
+                            <div class="small text-muted">The create item button</div>
+                        </div>
 
-                <h3>
-                    Sourcing Info
-                </h3>
-                <p>
-                    Sourcing info
-                </p>
+                    </li>
+                    <li>
+                        Click to display the ‘Create Item’ form.
 
-                <h3>
-                    Parts Costing
-                </h3>
-                <p>
-                    Parts costing
-                </p>
+                        <div class="img-div">
+                            <img src="/imgs/im/item-create-form.png" alt="The create item form" />
+                            <div class="small text-muted">The create item form</div>
+                        </div>
+                    </li>
+                    <li>
+                        Fill in the form as follow:
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Item Number</strong>: Type in a number for the item. This must be unique. It can
+                                    contain only alphanumerics and dashes, no spaces. Depending on your
+                                    organization’s rules you may use significant or non-significant
+                                    numbers. We recommend to use non-significant incremental numbers
+                                    only with dashes as separators.
+                                </p>
+                                <p>
+                                    The system proposes a number based on an ascending sort of your existing
+                                    item numbers. It takes the last one and it increments to generate the
+                                    next number. If you do not have any item at all, the system proposes
+                                    to start at 10–000.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Number</strong>: This is the first revision of the item to start
+                                with in the system. If you have your items already in an old software
+                                and you choose to keep the data in your legacy system and your item
+                                as at revision 03 today, then enter 03. If Your item is new, then you
+                                can start with 00 or any other format you choose. This number can
+                                contain only alphanumerics, no spaces. We recommend that you use
+                                numbers only.
+                            </li>
+                            <li>
+                                <strong>Name</strong>: A short name for the item
+                            </li>
+                            <li>
+                                <strong>Description</strong>: A detailed description of the item.
+                            </li>
+                            <li>
+                                <strong>Type</strong>: The type of the item. Convexys allows you to manage different
+                                types of items from a Product Family to a Service or a Software.
+                                Learn more about our item types.
+                            </li>
+                            <li>
+                                <strong>Unit of Measure</strong>: The default unit of measure to use to measure
+                                the item. E.g. A liquid it is very likely to be measured in
+                                Liters. A wire is usually measured in length units (M, DM, CM).
+                                If the item is a discrete item then the appropriate unit would
+                                be PC (piece). We recommend that you use metric units only.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Click save to add the item.
+                    </li>
+                    <li>
+                        If any data is not provided as expected the system will
+                        return an error message at the top of the form.
 
-                <h3>
-                    Collaboration & Communication
-                </h3>
+                        <div class="img-div">
+                            <img src="/imgs/im/item-error.png" alt="Error message on item create" />
+                            <div class="small text-muted">Error message on item create</div>
+                        </div>
+                    </li>
+                </ol>
                 <p>
-                    Collaboration and communication
-                </p>
-
-                <h3>
-                    Access & Security
-                </h3>
-                <p>
-                    Access and Security
+                    Your item is now in.
                 </p>
 
                 <p class="pleasehelp">
@@ -128,7 +167,33 @@
         <a>Getting Started</a>
     </li>
     <li>
-        <a href="/im/ItemManagement.html">Item Management</a>
+        <a class="active" href="/im/ItemManagement.html">Item Management</a>
+        <ul class="nav sub-menu">
+            <li>
+                <a href="/im/ItemTypes.html">Item Types</a>
+            </li>
+            <li>
+                <a href="/im/ItemCreate.html">Create new item</a>
+            </li>
+            <li>
+                <a>Edit item</a>
+            </li>
+            <li>
+                <a>Update item picture</a>
+            </li>
+            <li>
+                <a>Delete item</a>
+            </li>
+            <li>
+                <a>Create new revision</a>
+            </li>
+            <li>
+                <a>Update revision</a>
+            </li>
+            <li>
+                <a>Delete revision</a>
+            </li>
+        </ul>
     </li>
     <li>
         <a>Bill of Materials</a>

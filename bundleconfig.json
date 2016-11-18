@@ -1,0 +1,32 @@
+[
+  {
+    "outputFileName": "css/c-app.min.css",
+    "inputFiles": [
+      "css/c-app.css"
+    ]
+  },
+  {
+    "outputFileName": "css/c-auth.min.css",
+    "inputFiles": [
+      "css/c-auth.css"
+    ]
+  },
+  {
+    "outputFileName": "css/c-content.min.css",
+    "inputFiles": [
+      "css/c-content.css"
+    ]
+  },
+  {
+    "outputFileName": "css/c-error.min.css",
+    "inputFiles": [
+      "css/c-error.css"
+    ]
+  },
+  {
+    "outputFileName": "css/c-site.min.css",
+    "inputFiles": [
+      "css/c-site.css"
+    ]
+  }
+]

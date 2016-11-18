@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+###t/head.html
+
+<body>
+    ###t/top.html
+
+    ###im/header.html
+
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-9">
+                <h1 class="page-header">Create an item</h1>
+                ###t/wip.html
+
+                <p class="lead">
+                    This section details how to create a new item.
+                </p>
+
+                <p>
+                    Follow these steps to create a new item:
+                </p>
+                <ol class="content">
+                    <li>
+                        Go to the items page from the main menu or using this url:
+                        www.convexys.com/productinformation/items.
+
+                        <div class="img-div">
+                            <img src="/imgs/im/item-menu.png" alt="Items link" />
+                            <div class="small text-muted">Items link</div>
+                        </div>
+                    </li>
+                    <li>
+                        Hover on the data table and the (+) sign will appear at the top right.
+
+                        <div class="img-div">
+                            <img src="/imgs/im/item-create-button.png" alt="The create item button" />
+                            <div class="small text-muted">The create item button</div>
+                        </div>
+
+                    </li>
+                    <li>
+                        Click to display the ‘Create Item’ form.
+
+                        <div class="img-div">
+                            <img src="/imgs/im/item-create-form.png" alt="The create item form" />
+                            <div class="small text-muted">The create item form</div>
+                        </div>
+                    </li>
+                    <li>
+                        Fill in the form as follow:
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Item Number</strong>: Type in a number for the item. This must be unique. It can
+                                    contain only alphanumerics and dashes, no spaces. Depending on your
+                                    organization’s rules you may use significant or non-significant
+                                    numbers. We recommend to use non-significant incremental numbers
+                                    only with dashes as separators.
+                                </p>
+                                <p>
+                                    The system proposes a number based on an ascending sort of your existing
+                                    item numbers. It takes the last one and it increments to generate the
+                                    next number. If you do not have any item at all, the system proposes
+                                    to start at 10–000.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Number</strong>: This is the first revision of the item to start
+                                with in the system. If you have your items already in an old software
+                                and you choose to keep the data in your legacy system and your item
+                                as at revision 03 today, then enter 03. If Your item is new, then you
+                                can start with 00 or any other format you choose. This number can
+                                contain only alphanumerics, no spaces. We recommend that you use
+                                numbers only.
+                            </li>
+                            <li>
+                                <strong>Name</strong>: A short name for the item
+                            </li>
+                            <li>
+                                <strong>Description</strong>: A detailed description of the item.
+                            </li>
+                            <li>
+                                <strong>Type</strong>: The type of the item. Convexys allows you to manage different
+                                types of items from a Product Family to a Service or a Software.
+                                Learn more about our item types.
+                            </li>
+                            <li>
+                                <strong>Unit of Measure</strong>: The default unit of measure to use to measure
+                                the item. E.g. A liquid it is very likely to be measured in
+                                Liters. A wire is usually measured in length units (M, DM, CM).
+                                If the item is a discrete item then the appropriate unit would
+                                be PC (piece). We recommend that you use metric units only.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Click save to add the item.
+                    </li>
+                    <li>
+                        If any data is not provided as expected the system will
+                        return an error message at the top of the form.
+
+                        <div class="img-div">
+                            <img src="/imgs/im/item-error.png" alt="Error message on item create" />
+                            <div class="small text-muted">Error message on item create</div>
+                        </div>
+                    </li>
+                </ol>
+                <p>
+                    Your item is now in.
+                </p>
+
+                ###t/help.html
+            </div>
+
+            <div class="col-md-3">
+                ###im/nav.html
+            </div>
+        </div>
+    </div>
+
+    ###t/bottom.html
+</body>
+
+</html>

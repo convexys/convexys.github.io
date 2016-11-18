@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="60">
+	<g>
+  		<rect width="90" height="60" style="fill:rgb(255, 67, 54);"/>
+		<text x="9" y="34" style="fill:rgb(255, 255, 255); font-size: 12px; font-family:arial;">
+			<tspan style="font-weight: 800;">CONVEX</tspan><tspan style="font-weight: 400;">YS</tspan>
+		</text>
+	</g>
+</svg>

@@ -1,0 +1,214 @@
+﻿body {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow-y: scroll;
+    color: rgb(70, 70, 70);
+    font-size: 16px;
+}
+
+.body-content {
+    margin-top: 20px;
+    margin-bottom: 120px;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: rgb(27, 161, 226);
+    outline: 0;
+}
+
+a:focus, a:active
+{
+    outline: 0;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+    height: 60px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.navbar-right{
+    margin-right: 0;
+}
+
+.navbar-brand{
+    padding: 20px 15px;
+    color: #f44336;
+    font-size: 18px;
+}
+
+.page-heading {
+    margin-bottom: 40px;
+    background-image: url('/imgs/robots-lpbg.jpg');
+    background-size: cover;
+}
+
+.page-heading-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+}
+
+.page-heading h1 {
+    font-size: 48px;
+    color: #f44336;
+    font-weight: 500;
+}
+
+.page-heading p {
+    font-size: 24px;
+    color: rgb(200, 200, 200);
+    font-weight: 300;
+}
+
+.application-name {
+    top: 0;
+    float: left;
+    padding: 17px 20px; 
+    font-size: 18px; 
+    color: rgb(100, 100, 100);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.global-logo {
+    float: left;
+}
+
+.global-logo > a {
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    margin: 13px 6px 0 0;
+    color: #f44336;
+}
+
+.side-nav {
+    margin-top: 40px;
+}
+
+.nav.side-nav li a {
+    color: rgb(120, 120, 120);
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.nav.side-nav li a:hover, .nav.side-nav li a.active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.social-media-link {
+    padding: 20px;
+}
+
+
+.info-div {
+    text-align: center;
+    font-family: "Open Sans", Roboto, Arial;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #333;
+    padding: 80px 0px;
+    color: #C5C5C2;
+}
+
+footer a {
+    color: #C5C5C2;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+    color: #f44336;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .info-div {
+    text-align: left;
+    font-family: "Open Sans", Roboto, Arial;
+    margin-bottom: 0px;
+}
+
+footer .info-div ul {
+    padding-left: 15px;
+}
+
+footer li {
+    line-height: 1.6;
+}
+
+.menu-head {
+    margin: 10px 0px 30px 0px;
+}
+
+.menu-head::before {
+    position: absolute;
+    left: 32px;
+    width: 24px;
+    height: 5px;
+    content: "";
+    display: inline-block;
+    top: 47px;
+}
+
+.menu-head::after {
+    position: absolute;
+    left: 18px;
+    width: 55px;
+    height: 1px;
+    content: "";
+    top: 49px;
+}
+
+.menu-head::before,
+.menu-head::after {
+    background: none repeat scroll 0% 0% #f44336;
+}
+
+.footer_b {
+    background-color: #222;
+    border-top: 1px solid #555;
+    padding: 30px;
+}
+
+.color-focused {
+    color: rgb(244, 67, 54); 
+}
+
+.small{
+    font-weight: normal;
+}
+
+.img-div {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.img-div img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.24), 0 0 10px rgba(0,0,0,0.24);
+    margin-bottom: 10px;
+}
+
+.content li {
+    margin-bottom: 20px;
+}
+
+.sub-menu {
+    font-size: 90%;
+    padding-left: 20px;
+}
+
+.pleasehelp {
+    margin-top: 80px;
+    font-size: 18px;
+}
